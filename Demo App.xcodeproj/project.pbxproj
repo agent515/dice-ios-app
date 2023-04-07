@@ -17,6 +17,15 @@
 		4CCF180B29E04B8E00D7D38B /* Demo_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF180A29E04B8E00D7D38B /* Demo_AppTests.m */; };
 		4CCF181529E04B8E00D7D38B /* Demo_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF181429E04B8E00D7D38B /* Demo_AppUITests.m */; };
 		4CCF181729E04B8E00D7D38B /* Demo_AppUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF181629E04B8E00D7D38B /* Demo_AppUITestsLaunchTests.m */; };
+		4CCF182829E050C500D7D38B /* DiceDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CCF182729E050C500D7D38B /* DiceDataController.m */; };
+		4CCF183329E0582200D7D38B /* dice-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF182C29E0582200D7D38B /* dice-1.png */; };
+		4CCF183429E0582200D7D38B /* dice-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF182D29E0582200D7D38B /* dice-3.png */; };
+		4CCF183529E0582200D7D38B /* dice-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF182E29E0582200D7D38B /* dice-4.png */; };
+		4CCF183629E0582200D7D38B /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF182F29E0582200D7D38B /* background.jpg */; };
+		4CCF183729E0582200D7D38B /* dice-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF183029E0582200D7D38B /* dice-5.png */; };
+		4CCF183829E0582200D7D38B /* dice-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF183129E0582200D7D38B /* dice-2.png */; };
+		4CCF183929E0582200D7D38B /* dice-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CCF183229E0582200D7D38B /* dice-6.png */; };
+		4CF6416229E05EFA004C3B78 /* DieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF6416129E05EFA004C3B78 /* DieView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +63,17 @@
 		4CCF181029E04B8E00D7D38B /* Demo AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Demo AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CCF181429E04B8E00D7D38B /* Demo_AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_AppUITests.m; sourceTree = "<group>"; };
 		4CCF181629E04B8E00D7D38B /* Demo_AppUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Demo_AppUITestsLaunchTests.m; sourceTree = "<group>"; };
+		4CCF182629E050C500D7D38B /* DiceDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiceDataController.h; sourceTree = "<group>"; };
+		4CCF182729E050C500D7D38B /* DiceDataController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiceDataController.m; sourceTree = "<group>"; };
+		4CCF182C29E0582200D7D38B /* dice-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dice-1.png"; sourceTree = "<group>"; };
+		4CCF182D29E0582200D7D38B /* dice-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dice-3.png"; sourceTree = "<group>"; };
+		4CCF182E29E0582200D7D38B /* dice-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dice-4.png"; sourceTree = "<group>"; };
+		4CCF182F29E0582200D7D38B /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		4CCF183029E0582200D7D38B /* dice-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dice-5.png"; sourceTree = "<group>"; };
+		4CCF183129E0582200D7D38B /* dice-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dice-2.png"; sourceTree = "<group>"; };
+		4CCF183229E0582200D7D38B /* dice-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dice-6.png"; sourceTree = "<group>"; };
+		4CF6416029E05EFA004C3B78 /* DieView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DieView.h; sourceTree = "<group>"; };
+		4CF6416129E05EFA004C3B78 /* DieView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DieView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +124,7 @@
 		4CCF17ED29E04B8C00D7D38B /* Demo App */ = {
 			isa = PBXGroup;
 			children = (
+				4CCF182B29E0581200D7D38B /* Resources */,
 				4CCF17EE29E04B8C00D7D38B /* AppDelegate.h */,
 				4CCF17EF29E04B8C00D7D38B /* AppDelegate.m */,
 				4CCF17F129E04B8C00D7D38B /* SceneDelegate.h */,
@@ -115,6 +136,10 @@
 				4CCF17FC29E04B8E00D7D38B /* LaunchScreen.storyboard */,
 				4CCF17FF29E04B8E00D7D38B /* Info.plist */,
 				4CCF180029E04B8E00D7D38B /* main.m */,
+				4CCF182629E050C500D7D38B /* DiceDataController.h */,
+				4CCF182729E050C500D7D38B /* DiceDataController.m */,
+				4CF6416029E05EFA004C3B78 /* DieView.h */,
+				4CF6416129E05EFA004C3B78 /* DieView.m */,
 			);
 			path = "Demo App";
 			sourceTree = "<group>";
@@ -134,6 +159,20 @@
 				4CCF181629E04B8E00D7D38B /* Demo_AppUITestsLaunchTests.m */,
 			);
 			path = "Demo AppUITests";
+			sourceTree = "<group>";
+		};
+		4CCF182B29E0581200D7D38B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4CCF182F29E0582200D7D38B /* background.jpg */,
+				4CCF183029E0582200D7D38B /* dice-5.png */,
+				4CCF182E29E0582200D7D38B /* dice-4.png */,
+				4CCF182C29E0582200D7D38B /* dice-1.png */,
+				4CCF183229E0582200D7D38B /* dice-6.png */,
+				4CCF182D29E0582200D7D38B /* dice-3.png */,
+				4CCF183129E0582200D7D38B /* dice-2.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,7 +280,14 @@
 			files = (
 				4CCF17FE29E04B8E00D7D38B /* LaunchScreen.storyboard in Resources */,
 				4CCF17FB29E04B8E00D7D38B /* Assets.xcassets in Resources */,
+				4CCF183629E0582200D7D38B /* background.jpg in Resources */,
+				4CCF183829E0582200D7D38B /* dice-2.png in Resources */,
 				4CCF17F929E04B8C00D7D38B /* Main.storyboard in Resources */,
+				4CCF183729E0582200D7D38B /* dice-5.png in Resources */,
+				4CCF183429E0582200D7D38B /* dice-3.png in Resources */,
+				4CCF183529E0582200D7D38B /* dice-4.png in Resources */,
+				4CCF183329E0582200D7D38B /* dice-1.png in Resources */,
+				4CCF183929E0582200D7D38B /* dice-6.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +315,9 @@
 				4CCF17F629E04B8C00D7D38B /* ViewController.m in Sources */,
 				4CCF17F029E04B8C00D7D38B /* AppDelegate.m in Sources */,
 				4CCF180129E04B8E00D7D38B /* main.m in Sources */,
+				4CCF182829E050C500D7D38B /* DiceDataController.m in Sources */,
 				4CCF17F329E04B8C00D7D38B /* SceneDelegate.m in Sources */,
+				4CF6416229E05EFA004C3B78 /* DieView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
